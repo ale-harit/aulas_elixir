@@ -1,9 +1,9 @@
-defmodule AulaComPhils.Mixfile do
+defmodule MetricsDB.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :aula_com_phils,
+      app: :metrics_db,
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
@@ -21,8 +21,6 @@ defmodule AulaComPhils.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:floki, "~> 0.20.4"},
-      {:ex_doc, "~> 0.18.0"}
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
     ]
   end
